@@ -1,0 +1,402 @@
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|Cousine:400,400italic,700,700italic|Kelly+Slab&subset=latin,cyrillic);
+
+html
+{
+    font-size: 14px;
+    font-family: 'Cousine', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    color: #111;
+}
+
+table
+{
+    width: 100%;
+    empty-cells: show;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+}
+
+td
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5
+{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h1
+{
+    font-size: 2rem;
+}
+
+h2
+{
+    font-size: 1.8rem;
+}
+
+h3
+{
+    font-size: 1.5rem;
+}
+
+h4
+{
+    font-size: 1.3rem;
+}
+
+h5
+{
+    font-size: 1.2rem;
+}
+
+a, a:link, a:active, a:visited
+{
+    text-decoration: none;
+    color: #222653;
+}
+
+a:hover
+{
+    color: #303891;
+}
+
+span.details
+{
+    display: none;
+}
+
+span.summary
+{
+    cursor: pointer;
+}
+
+.readmore
+{
+    font-size: 80%;
+    color: rgba(48, 78, 159, 0.95);
+    margin-left: 1rem;
+}
+
+/* COMMON CLASSES */
+.righter
+{
+    margin-left: 3rem;
+}
+
+i.fa
+{
+    margin-right: 0.45rem;
+}
+
+.ad
+{
+    width: 120px;
+    height: auto;
+    vertical-align: top;
+    text-align: center;
+    background-color: transparent !important;
+/*    box-shadow: 1px 1px 2px #ddd, -1px 0 2px #ddd;*/
+}
+
+#feedback-wrapper
+{
+    width: 100%;
+    text-align: center;
+}
+
+#feedback
+{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/* BUTTONS */
+.button
+{
+    display: inline-block;
+    
+    border: 1px solid transparent;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.6rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    margin: 1rem;
+    color: #fff;
+    min-width: 6rem;
+    
+    border: 3px solid transparent;
+    background-color: transparent;
+    
+    font-family: 'PT Sans Narrow', sans-serif;
+    
+    transition-duration: 0.15s;
+    transition-property: border;
+    transition-delay: 0s;
+}
+
+a .button, a:link .button , a:active .button , a:visited .button 
+{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.button:hover
+{
+    border-bottom: 3px solid #fff;
+}
+
+/* HEADER */
+#header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: #222;
+    background-color: #5c984d;
+    opacity: 0.9;
+    z-index: 1000;
+    height: auto;
+/*    max-height: 70px;*/
+    border-bottom: 1px solid #ccc;
+}
+
+#header td
+{
+    vertical-align: top;
+    
+    margin: 0;
+}
+
+#logo
+{
+    font-family: 'Kelly Slab', fantasy;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 1.5rem;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    cursor: pointer;
+    margin: 0;
+    background-color: transparent;
+    width: 20rem;
+    color: #111;
+    text-shadow: 1px 1px 1px #fff, -1px 1px 1px #fff;
+}
+
+#sublogo
+{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 14px;
+    
+    color: #111;
+}
+
+#social
+{
+    padding-top: 20px;
+}
+
+/* CONTENT */
+#content
+{
+    margin-top: 85px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    min-height: 1250px;
+}
+
+.panel
+{
+    
+    margin: 1rem;
+    background-color: #fff;
+    margin-bottom: 2rem;
+    margin-top: 0;
+    min-height: 5rem;
+    box-shadow: 1px 1px 2px #ddd, -1px 0 2px #ddd;
+}
+
+.panel table td
+{
+    vertical-align: top;
+}
+
+.panel > .caption
+{
+    background-color: #fff;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 2rem;
+    color: #999;
+    border-bottom: 1px solid #ddd;
+    display: block;
+    padding: 1rem;
+}
+
+.panel .text
+{
+    padding: 1rem;
+    color: #444;
+}
+
+.panel ul
+{
+    list-style-image: none;
+    list-style-type: none;
+}
+
+.panel li
+{
+    margin-bottom: 0.75rem;
+    margin-left: -1.5rem;
+    list-style-image: none;
+}
+
+.caption + div
+{
+    display: block;
+    
+    left: 0;
+}
+
+.outlet
+{
+    font-weight: bold;
+    color: #3caf21;
+}
+
+/* FOOTER */
+#footer
+{
+    width: 100%;
+    background-color: transparent;
+    opacity: 0.8;
+    color: #777;
+    margin: 0;
+    padding: 0;
+    font-size: 0.85rem;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+#footer a
+{
+    color: #3961e6;
+}
+
+#footer a:hover
+{
+    color: #d97a48;
+}
+
+#footer table
+{
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+}
+
+#footer td
+{
+    vertical-align: top;
+    text-align: center;
+    padding: 1rem;
+}
+
+#footer td h5
+{
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 100;
+    color: #999;
+    margin-top: 0;
+}
+
+/* CALENDAR */
+#calendar
+{
+    display: none;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 0.3rem;
+    max-width: 70%;
+    margin: 1rem auto 1rem auto;
+}
+
+#calendar-days 
+{
+    
+    margin-top: 1.5rem;
+    border-collapse: separate;
+}
+
+#calendar-days td
+{
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.4rem;
+}
+
+#calendar-days td a
+{
+    color: #1d8325;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+#prev-month, #next-month
+{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* MEDIA QEURIES */
+@media all and (max-width: 1024px)   {
+    
+    html
+    {
+        font-size: 12px;
+        font-family: 'Cousine', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #social
+    {
+        display: none;
+    }
+    
+    #calendar
+    {
+        max-width: 50%;
+    }
+    
+}

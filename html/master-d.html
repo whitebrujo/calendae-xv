@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="%language%">
+    <head>
+        <base href="%self%/" />
+        <meta charset="utf-8" />
+        
+        <meta name="verify-reformal" content="07bc4d051b137c325c9492d1" />
+        
+        <title>%title%</title>
+        
+        <meta name="description" content="%description%" />
+        <meta name="keywords" content="%keywords%" />
+
+        <meta property="og:title" content="%title%" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="%description%" />
+        <meta property="og:url" content="%self%" />
+        <meta property="og:image" content="%image%" />
+
+        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="//ajax.googleapis.com" />
+        <link rel="dns-prefetch" href="//code.jquery.com" />
+        <link rel="dns-prefetch" href="//top-fwz1.mail.ru" />
+        <link rel="dns-prefetch" href="//share.pluso.ru" />
+
+        <link rel="stylesheet" type="text/css" href="css/typo.css" />
+        <link rel="stylesheet" type="text/css" href="css/animate.css" />
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+        
+        <link rel="stylesheet" type="text/css" href="css/style-d.css" />
+
+        <link href="/favicon.png" rel="icon" />
+    <!--    <link href="ajax/rss.php" rel="alternate" title="RSS" type="application/rss+xml" />-->
+
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/logic-d.js"></script>
+        
+        file{html/social-head.html}
+        
+        file{html/vk-comments-head.html}
+        
+    </head>
+    
+    <body>
+        
+        file{html/mail.ru.counter.html}
+        file{html/yandex.metrika.html}
+        
+        <div id="header">
+            <header>
+                <table>
+                    <tr>
+                        <td id="logo" class="w25">
+                            <span style="font-size 120%;">C</span>alendae<br/>
+                            <span id="sublogo">петербургский онлайн календарь</span>
+                        </td>
+                        <td class="w45 left">
+                            
+                            <a href="%self%/date/%prev%">
+                                <div id="yesterday-button" class="button">
+                                    <i class="fa fa-calendar-minus-o"></i>ВЧЕРА
+                                </div>
+                            </a>
+
+                            <a href="%self%/">
+                                <div id="today-button" class="button">
+                                    <i class="fa fa-calendar"></i>СЕГОДНЯ
+                                </div>
+                            </a>
+
+                            <a href="%self%/date/%next%">
+                                <div id="tomorrow-button" class="button">
+                                    <i class="fa fa-calendar-plus-o"></i>ЗАВТРА
+                                </div>
+                            </a>
+                            
+                            <div id="choose-button" class="button">
+                                <i class="fa fa-calendar-check-o"></i>ВЫБРАТЬ ДАТУ
+                            </div>
+                            
+                            <div class="center w100">
+                                <div id="calendar">
+                                    <div>
+                                        <table>
+                                            <tr>
+                                                <td id="prev-month" style="width: 2rem;"><i class="fa fa-arrow-circle-left"></i></td>
+                                                <td id="month-name" style="text-align: center;"></td>
+                                                <td id="next-month" style="width: 2rem;"><i class="fa fa-arrow-circle-right"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="3">
+                                                    <table id="calendar-days"></table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </td>
+                        
+                        <td id="social" class="center">file{html/social.html}</td>
+                        
+                    </tr>
+                </table>
+            </header>
+        </div>
+        
+        <div id="content">
+            %content%
+        </div>
+        
+        <div id="footer">
+            <table>
+                <tr>
+                    <td class="w33">
+                        <h5>сайт</h5>
+                        <div class="righter">
+                            Разработка и дизайн: <a href="mailto:%email%">dirr (c) 2003-16</a><br/><br/>
+                            file{html/donate1.html} file{html/donate2.html}
+                        </div>
+                    </td>
+                    <td class="w33">
+                        <h5>другие проекты</h5>
+                        <div class="righter">
+                            <a href="http://kulinar.farx.ru">кулинар - 500+ рецептов национальных кухонь</a><br/>
+                            <a href="http://smallbiz-online.ru">сайт-визитка для малого бизнеса от 1000 р.</a><br/>
+                            <a href="http://утилизация-продуктов.рф">утилизация продуктов питания</a>
+                        </div>
+                    </td>
+                    <td class="w33">
+                        <h5>партнеры</h5>
+                        file{html/mail.ru.logo.html}
+                        file{html/rambler.top100.html}
+                        file{html/yandex.cy.html}
+                        <br/>
+                        <a href="http://www.people-group.su/?r=54995">PeopleGroup - реклама</a>&nbsp;&middot;&nbsp;
+                        <a href="http://fullspace.ru/?pnum=8136">FullSpace - хостинг</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

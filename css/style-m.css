@@ -1,0 +1,197 @@
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|Cousine:400,400italic,700,700italic|Kelly+Slab&subset=latin,cyrillic);
+
+html, body
+{
+    font-size: 10pt;
+    font-family: 'Cousine', sans-serif;
+    
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    color: #111;
+}
+
+table
+{
+    width: 100%;
+    empty-cells: show;
+    border-collapse: separate;
+    margin: 0;
+    padding: 0;
+}
+
+td
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    width: 100%;
+    margin: 0;
+}
+
+#header
+{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    color: #222;
+    background-color: #5c984d;
+}
+
+#header table
+{
+    width: 100%;
+/*    border: 1px solid #fff;*/
+}
+
+#header table td
+{
+    vertical-align: middle;
+/*    border: 1px solid #fff;*/
+}
+
+
+#logo
+{
+    font-size: 2.5em;
+    font-family: 'Kelly Slab', sans-serif;
+    color: #fff;
+    padding: 0.35em;
+    vertical-align: middle;
+}
+
+#menu-button
+{
+    font-size: 1.8em;
+    color: #fff;
+    padding: 0.35em;
+    text-align: right;
+    vertical-align: middle;
+}
+
+#nav-menu
+{
+    display: none;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+#nav-menu a
+{
+    color: #5c984d;
+    text-decoration: none;
+    border-radius: 0.85em;
+    padding: 1.25em;
+    text-align: center;
+    background-color: #fff;
+}
+
+#content
+{
+    width: 100%;
+    
+}
+
+.ad 
+{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
+}
+
+.panel
+{
+    
+    margin-left: 1em;
+    margin-right: 1em;
+    background-color: #fff;
+    margin-bottom: 2em;
+    margin-top: 1.5em;;
+    min-height: 5em;
+    box-shadow: 1px 1px 2px #ddd, -1px 0 2px #ddd;
+}
+
+
+.panel > .caption
+{
+    background-color: #fff;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 2em;
+    color: #999;
+    border-bottom: 1px solid #ddd;
+    display: block;
+    padding: 0.5em;
+}
+
+.panel .text
+{
+    padding: 0.85em;
+    color: #444;
+}
+
+.panel ul
+{
+    list-style-image: none;
+    list-style-type: none;
+}
+
+.panel li
+{
+    margin-bottom: 0.75em;
+    margin-left: -3em;
+    list-style-image: none;
+}
+
+.caption + div
+{
+    display: block;
+    
+    left: 0;
+}
+
+.outlet
+{
+    font-weight: bold;
+    color: #3caf21;
+}
+
+
+i.fa
+{
+    padding-right: 1.2em;
+}
+
+#footer
+{
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 2em;
+}
+    
+#footer div
+{
+    margin: 0;
+    padding: 1em;
+    font-size: 1em;
+}
+
+#footer a
+{
+    color: #6275e0;
+    text-decoration: none;
+    font-size: 1em;
+}

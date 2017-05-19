@@ -1,0 +1,11 @@
+[Mon, 21 Dec 2015 19:00:10 +0100]: error #2 (setlocale() expects at least 2 parameters, 1 given) at 15 in /home/dirr/proj/web/site-cradle/index.php
+[Mon, 21 Dec 2015 19:09:52 +0100]: error #2 (setlocale() expects at least 2 parameters, 1 given) at 15 in /home/dirr/proj/web/site-cradle/index.php
+[Mon, 21 Dec 2015 21:22:43 +0300]: error #2 (strlen() expects exactly 1 parameter, 0 given) at 22 in /home/dirr/proj/web/site-cradle/index.php
+[Mon, 21 Dec 2015 21:25:35 +0300]: error #2 (strlen() expects exactly 1 parameter, 0 given) at 22 in /home/dirr/proj/web/site-cradle/index.php
+[Mon, 21 Dec 2015 21:25:42 +0300]: error #2 (strlen() expects exactly 1 parameter, 0 given) at 22 in /home/dirr/proj/web/site-cradle/index.php
+[Mon, 21 Dec 2015 21:26:30 +0300]: error #2 (strlen() expects exactly 1 parameter, 0 given) at 22 in /home/dirr/proj/web/site-cradle/index.php
+[Mon, 21 Dec 2015 21:26:59 +0300]: error #2 (strlen() expects exactly 1 parameter, 0 given) at 22 in /home/dirr/proj/web/site-cradle/index.php
+[Mon, 21 Dec 2015 21:27:55 +0300]: error #2 (strlen() expects exactly 1 parameter, 0 given) at 22 in /home/dirr/proj/web/site-cradle/index.php
+[Mon, 21 Dec 2015 21:28:09 +0300]: error #2 (strlen() expects exactly 1 parameter, 0 given) at 22 in /home/dirr/proj/web/site-cradle/index.php
+[Mon, 21 Dec 2015 21:28:34 +0300]: error #2 (strlen() expects exactly 1 parameter, 0 given) at 22 in /home/dirr/proj/web/site-cradle/index.php
+[Tue, 22 Dec 2015 12:24:01 +0100]: error #2 (require_once(php/tremplate.php): failed to open stream: Нет такого файла или каталога) at 11 in /home/dirr/proj/web/site-cradle/index.php

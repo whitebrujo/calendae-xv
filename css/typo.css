@@ -1,0 +1,163 @@
+/*
+
+	Typography classes
+
+*/
+
+.w10
+{
+	width: 10%;
+}
+
+.w15
+{
+    width: 15%;
+}
+
+.w66
+{
+	width: 66%;
+}
+
+.w33
+{
+	width: 33%;
+}
+
+.w30
+{
+    width: 30%;
+}
+
+.w25
+{
+	width: 25%;
+}
+
+.w50
+{
+	width: 50%;
+}
+
+.w60
+{
+	width: 60%;
+}
+
+.w75
+{
+    width: 75%;
+}
+
+.w40
+{
+	width: 40%;
+}
+
+.w20
+{
+    width: 20%;
+}
+
+.w80
+{
+    width: 80%;
+}
+
+.w100
+{
+    width: 100%;
+}
+
+.w-auto
+{
+    width: auto;
+}
+
+.left
+{
+	text-align: left !important;
+}
+
+.h100
+{
+	height: 100%;
+}
+
+.right
+{
+	text-align: right !important;
+}
+
+.mright
+{
+    float: right;
+}
+
+.mleft
+{
+    float: left;
+}
+
+
+.center
+{
+	text-align: center;
+}
+
+.vtop
+{
+	vertical-align: top;
+}
+
+.vcenter
+{
+	vertical-align: middle;
+}
+
+.vbase
+{
+	vertical-align: baseline; 
+}
+
+.middle
+{
+    margin: 0 auto;
+    width: auto;
+    text-align: center;
+}
+
+.block
+{
+    display: block;
+}
+
+.w50px
+{
+    width: 50px;
+}
+
+.w72px
+{
+    width: 72px;
+}
+
+.w90px
+{
+    width: 90px;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.big
+{
+    font-size: 110%;
+}
+
+.nounder
+{
+    text-decoration: none !important;
+}
